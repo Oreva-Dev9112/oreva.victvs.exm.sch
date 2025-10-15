@@ -451,13 +451,13 @@ export default function ExamList() {
           ) : null}
         </div>
 
-        <aside className="hidden space-y-4 text-foreground xl:block">
+        <aside className="hidden space-y-4 text-foreground xl:block" style={{margin:"19px"}}>
           <h2 className="text-base font-semibold tracking-tight">Exam details</h2>
           {resolvedDetail}
         </aside>
       </div>
 
-      <div ref={detailRef} className="space-y-4 xl:hidden">
+      <div ref={detailRef} className="space-y-4 xl:hidden" style={{margin:"19px"}}>
         <h2 className="text-base font-semibold tracking-tight">Exam details</h2>
         {resolvedDetail}
       </div>
