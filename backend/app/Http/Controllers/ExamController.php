@@ -7,10 +7,7 @@ use App\Models\Exam;
 
 class ExamController extends Controller
 {
-    /**
-     * Return the exam collection with optional filters applied.
-     * The frontend expects candidates preloaded so we eager-load them here.
-     */
+    // GET /api/exams
     public function index(Request $request)
     {
         $query = Exam::query();
@@ -48,9 +45,7 @@ class ExamController extends Controller
         return $query->orderBy('datetime', 'asc')->get();
     }
 
-    /**
-     * Advance (or directly set) the status of a single exam.
-     */
+    // PUT /api/exams/{id}/status
     public function updateStatus(Request $request, $id)
     {
         $exam = Exam::findOrFail($id);
