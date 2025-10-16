@@ -30,7 +30,9 @@ export default function Home() {
         </h1>
 
         <p className="mb-6 text-lg text-muted-foreground">
-          Manage, monitor, and track your global exam sessions effortlessly — all in one place.
+          Manage, monitor, and track your global exam sessions effortlessly 
+          <br>
+          All In One Place.
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
