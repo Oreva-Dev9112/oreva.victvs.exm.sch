@@ -201,7 +201,7 @@ export default function MapPage() {
         <h1 className="text-2xl font-semibold tracking-tight" style={{marginTop:"30px"}}>Exam Sessions Map</h1>
         <p className="text-sm text-muted-foreground">View All Exam Session Locations.</p>
         </center>
-      </header>
+       </header>
 
       <div className="rounded-2xl border border-border/0 bg-[#e1e5fe]/0 p-10 shadow-sm">
         {error ? (
