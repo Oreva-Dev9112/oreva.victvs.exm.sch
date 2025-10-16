@@ -199,7 +199,7 @@ export default function MapPage() {
       <header className="space-y-1">
         <center>
         <h1 className="text-2xl font-semibold tracking-tight" style={{marginTop:"30px"}}>Exam Sessions Map</h1>
-        <p className="text-sm text-muted-foreground">Dark themed view of the exam session locations.</p>
+        <p className="text-sm text-muted-foreground">View All Exam Session Locations.</p>
         </center>
       </header>
 
@@ -210,7 +210,7 @@ export default function MapPage() {
           </div>
         ) : (
           <>
-            {isLoading ? <p className="pb-3 text-sm text-muted-foreground">Loading exam locations…</p> : null}
+            {isLoading ? <p className="pb-3 text-sm text-muted-foreground">Loading Exam Locations or Check Internet Connection…</p> : null}
             <div ref={mapContainerRef} className="h-[720px] w-full rounded-xl" />
           </>
         )}
