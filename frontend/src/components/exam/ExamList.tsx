@@ -230,7 +230,7 @@ export default function ExamList() {
       <header className="space-y-2 text-center xl:text-center" style={{marginTop:"-98px"}}>
         <h1 className="text-2xl font-semibold text-white">Upcoming sessions</h1>
         <p className="text-sm text-muted-foreground">
-          Review and manage live exam sessions synced from the Laravel backend.
+          Review and manage live exam sessions.
         </p>
       </header>
 
